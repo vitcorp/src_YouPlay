@@ -1,0 +1,2 @@
+<?php global $APPLICATION, $SCREEN, $_c, $progDir, $_PARAMS, $argv;global $APPLICATION, $SCREEN, $_c, $progDir, $_PARAMS, $argv;$self=_c(7276064);$yid = c("edit1")->text;
+c("browser1")->html = '<iframe title="YouPlay" width= "640" height= "390" src="http://www.youtube.com/embed/'.$yid.'" frameborder = "0" allowfullscreen></iframe>';

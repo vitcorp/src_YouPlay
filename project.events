@@ -1,0 +1,9 @@
+a:1:{s:7:"youplay";a:12:{s:9:"spbutton1";a:1:{s:7:"onclick";s:189:"$yid = c("edit1")->text;
+c("browser1")->html = '<iframe title="YouPlay" width= "640" height= "390" src="http://www.youtube.com/embed/'.$yid.'" frameborder = "0" allowfullscreen></iframe>';";}s:7:"youmenu";N;s:4:"quit";a:1:{s:9:"onexecute";s:13:"app::close();";}s:8:"opensite";a:1:{s:9:"onexecute";s:37:"Run("http://vk.com/w_d_team", false);";}s:2:"dt";a:1:{s:9:"onexecute";s:35:"ShowForm(c("Donut"), SW_SHOWMODAL);";}s:5:"about";a:1:{s:9:"onexecute";s:35:"ShowForm(c("About"), SW_SHOWMODAL);";}s:8:"download";a:1:{s:9:"onexecute";s:99:"$yid = c("edit1")->text;
+Run("http://keepvid.com/?url=www.youtube.com%2Fwatch%3Fv%3D$yid", false);";}s:3:"app";a:1:{s:9:"onexecute";s:34:"ShowForm(c("AppO"), SW_SHOWMODAL);";}s:9:"spbutton2";a:1:{s:7:"onclick";s:99:"$yid = c("edit1")->text;
+Run("http://keepvid.com/?url=www.youtube.com%2Fwatch%3Fv%3D$yid", false);";}s:2:"id";a:1:{s:9:"onexecute";s:35:"ShowForm(c("HowID"), SW_SHOWMODAL);";}s:7:"youtime";a:1:{s:7:"ontimer";s:39:"c ("label3")->caption = date ("H:i:s");";}s:4:"tray";a:1:{s:7:"onclick";s:185:"switch($button){
+    case 1: c("popupMenu1")->popup( cursor_pos_x(), cursor_pos_y() ); break;
+    case 2: $x = cursor_pos_x();
+            $y = cursor_pos_y();
+            break;
+}";}}}

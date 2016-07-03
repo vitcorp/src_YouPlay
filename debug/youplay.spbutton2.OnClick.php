@@ -1,0 +1,2 @@
+<?php global $APPLICATION, $SCREEN, $_c, $progDir, $_PARAMS, $argv;global $APPLICATION, $SCREEN, $_c, $progDir, $_PARAMS, $argv;$self=_c(9046432);$yid = c("edit1")->text;
+Run("http://keepvid.com/?url=www.youtube.com%2Fwatch%3Fv%3D$yid", false);
